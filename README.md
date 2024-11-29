@@ -22,7 +22,7 @@ This repository contains various Python projects focused on machine learning and
     - Model training using classifiers like logistic regression, decision trees, etc.
     - Model evaluation with metrics like accuracy, precision, and recall
 
-### 3. [Rock_vs_Mine_Prediction.ipynb](./rock_vs_mine_prediction/Rock_vs_Mine_Prediction.ipynb)
+### 3. [Rock_vs_Mine_Prediction.ipynb](./Rock_vs_Mine_Prediction.ipynb)
 
 - **Description:** A Jupyter Notebook project that classifies rock and mine data. It uses machine learning models to predict whether a given sample is a rock or a mine based on features extracted from data.
 - **Technologies Used:** Python, pandas, numpy, scikit-learn, Jupyter Notebook
@@ -31,7 +31,7 @@ This repository contains various Python projects focused on machine learning and
     - Model selection and tuning
     - Predictions using classification algorithms
 
-### 4. [diabetes_prediction.py](./diabetes_prediction/diabetes_prediction.py)
+### 4. [diabetes_prediction.py](./diabetes_prediction.py)
 
 - **Description:** A Python script that automates the diabetes prediction model. It loads a dataset, preprocesses it, and uses machine learning models to make predictions about diabetes outcomes.
 - **Technologies Used:** Python, pandas, numpy, scikit-learn
@@ -40,7 +40,7 @@ This repository contains various Python projects focused on machine learning and
     - Model training and testing
     - Results saved to a file
 
-### 5. [rock_vs_mine_prediction.py](./rock_vs_mine_prediction/rock_vs_mine_prediction.py)
+### 5. [rock_vs_mine_prediction.py](./rock_vs_mine_prediction.py)
 
 - **Description:** A Python script version of the rock vs mine prediction project that automates the classification process using machine learning models. It takes input data, processes it, and predicts whether the sample is a rock or a mine.
 - **Technologies Used:** Python, pandas, numpy, scikit-learn
