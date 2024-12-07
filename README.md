@@ -48,6 +48,17 @@ This repository contains various Python projects focused on machine learning and
     - Loads data and performs model predictions
     - Command-line interface for easy use
     - Model evaluation and output display
+    - 
+### 6. [GridSearchCV_and_RandomizedSearchCV.ipynb](./GridSearchCV_and_RandomizedSearchCV.ipynb)
+
+- **Description:** A Jupyter Notebook that demonstrates hyperparameter tuning using Grid Search and Randomized Search for a Decision Tree Classifier on different datasets. The project includes model evaluation and visualization of performance.
+- **Technologies Used:** Python, pandas, numpy, scikit-learn, matplotlib, Jupyter Notebook
+- **Features:**
+    - Loads Hyperparameter tuning using GridSearchCV and RandomizedSearchCV.
+    - Classification performance evaluation using accuracy, classification report, and confusion matrix.
+    - Visualizations - evaluationConfusion Matrix heatmap to analyze correct classifications (diagonal values) and misclassifications (off-diagonal values).
+    - Supports multiple datasets (e.g., Iris dataset).
+
 
 ## Getting Started
 
