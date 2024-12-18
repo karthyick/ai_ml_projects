@@ -58,6 +58,18 @@ This repository contains various Python projects focused on machine learning and
     - Classification performance evaluation using accuracy, classification report, and confusion matrix.
     - Visualizations - evaluationConfusion Matrix heatmap to analyze correct classifications (diagonal values) and misclassifications (off-diagonal values).
     - Supports multiple datasets (e.g., Iris dataset).
+ 
+ 
+### 6. [Sigmoid_Perceptron.ipynb](./Sigmoid_Perceptron.ipynb)
+
+- **Description:**Implements a Sigmoid Perceptron from scratch in Python using NumPy. It includes object-oriented programming and covers basic deep learning principles.
+- **Technologies Used:** Python, numpy, Jupyter Notebook
+- **Features:**
+    - Initialization of perceptron weights and bias.
+    - Sigmoid Activation Function for predictions.
+    - Training using Stochastic Gradient Descent (SGD) to optimize weights.
+    - Prediction and Evaluation functions for testing accuracy.
+    - Demonstrates training on an AND gate dataset, achieving 100% accuracy.
 
 
 ## Getting Started
