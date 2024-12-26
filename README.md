@@ -70,6 +70,18 @@ This repository contains various Python projects focused on machine learning and
     - Training using Stochastic Gradient Descent (SGD) to optimize weights.
     - Prediction and Evaluation functions for testing accuracy.
     - Demonstrates training on an AND gate dataset, achieving 100% accuracy.
+ 
+      
+### 6. [neural_networks.ipynb](./neural_networks.ipynb)
+
+- **Description:** Implements neural networks for regression tasks on the California Housing dataset. The program demonstrates the use of PCA for dimensionality reduction, standardization of features, and training of multiple models with different activation functions. The models' training performance is compared based on Mean Squared Error (MSE), and their predictions are visualized to assess model accuracy.
+- **Technologies Used:** Python, TensorFlow, Scikit-learn, Pandas, Matplotlib
+- **Features:**
+    - Loading and preprocessing the California Housing dataset.
+    - Standardization of features and application of PCA for dimensionality reduction.
+    - Training and evaluation of multiple neural network models with various activation functions (None, ReLU, Sigmoid, Tanh).
+    - Visualization of training loss over epochs for each model.
+    - Comparison of predicted house prices versus true values for each model using scatter plots.
 
 
 ## Getting Started
