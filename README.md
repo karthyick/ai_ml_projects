@@ -1,4 +1,4 @@
-# My Python Projects
+# My AI ML Projects
 
 This repository contains various Python projects focused on machine learning and data analysis. Each project is located in its own directory or file, and below are the details for each project along with installation and usage instructions.
 
@@ -72,7 +72,7 @@ This repository contains various Python projects focused on machine learning and
     - Demonstrates training on an AND gate dataset, achieving 100% accuracy.
  
       
-### 6. [neural_networks.ipynb](./neural_networks.ipynb)
+### 7. [neural_networks.ipynb](./neural_networks.ipynb)
 
 - **Description:** Implements neural networks for regression tasks on the California Housing dataset. The program demonstrates the use of PCA for dimensionality reduction, standardization of features, and training of multiple models with different activation functions. The models' training performance is compared based on Mean Squared Error (MSE), and their predictions are visualized to assess model accuracy.
 - **Technologies Used:** Python, TensorFlow, Scikit-learn, Pandas, Matplotlib
@@ -82,6 +82,19 @@ This repository contains various Python projects focused on machine learning and
     - Training and evaluation of multiple neural network models with various activation functions (None, ReLU, Sigmoid, Tanh).
     - Visualization of training loss over epochs for each model.
     - Comparison of predicted house prices versus true values for each model using scatter plots.
+
+ ### 8. [AITimeTraveler.py](./AITimeTraveler.py)
+
+- **Description:** AI-Powered Time Traveler for Alternative History Exploration.
+- **Technologies Used:** Python, TensorFlow, Scikit-learn, Pandas, Matplotlib
+- **Features:**
+- **New Feature:** AI Time Traveler allows users to rewrite history using AI-generated alternative scenarios.
+- **Historical Data Fetching:** Uses Serper API to retrieve real historical events dynamically.
+- **AI-Generated Alternative History:** Leverages Google Gemini and PandasAI to generate structured responses.
+- **Interactive UI:** Built with Streamlit for seamless user interaction.
+- **Detailed Prompting:** AI now provides responses categorized into Science, Politics, Culture, and Daily Life.
+- **Error Handling & Improvements:** Ensures meaningful AI responses even when historical data is limited.
+
 
 
 ## Getting Started
