@@ -95,6 +95,34 @@ This repository contains various Python projects focused on machine learning and
 - **Detailed Prompting:** AI now provides responses categorized into Science, Politics, Culture, and Daily Life.
 - **Error Handling & Improvements:** Ensures meaningful AI responses even when historical data is limited.
 
+ **9. [Vectorization.py](./Vectorization.py)**
+
+## Description:
+Various text vectorization techniques to convert text data into numerical representations for use in machine learning and natural language processing (NLP) tasks.
+
+## Technologies Used:
+- Python
+- Scikit-learn
+- Gensim
+- Sentence-Transformers
+- Pandas
+- Matplotlib
+
+## Features:
+
+### **TF-IDF Vectorization:**
+- Utilizes **TF-IDF** (Term Frequency-Inverse Document Frequency) to transform raw text into vector representations based on word frequency and significance across the corpus.
+- Effectively highlights important words and minimizes the impact of less informative words.
+
+### **Word2Vec Vectorization:**
+- Uses the **Word2Vec** model from **Gensim** to generate **dense vector embeddings** for individual words based on their contextual usage in a given corpus.
+- Provides semantic similarity between words, helping capture the meaning and relationships between words in the corpus.
+
+### **Sentence-BERT Vectorization (Using all-MiniLM-L6-v2):**
+- Leverages **Sentence-BERT** (with the **all-MiniLM-L6-v2 model**) to generate **sentence embeddings**, which are dense, fixed-size vectors that represent the meaning of entire sentences.
+- The embeddings are suitable for tasks like **semantic search**, **sentence classification**, and **similarity comparison**.
+
+
 
 
 ## Getting Started
